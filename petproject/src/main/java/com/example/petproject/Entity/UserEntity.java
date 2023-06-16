@@ -20,6 +20,10 @@ public class UserEntity {
         return id;
     }
 
+    public List<TodoEntity> getTodos() {
+        return todos;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }
